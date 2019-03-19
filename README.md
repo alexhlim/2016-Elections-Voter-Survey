@@ -93,7 +93,6 @@ voter_2016.head(3)
 
 
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -300,7 +299,6 @@ favorable_opinion_matrix.head(3)
 
 
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -367,7 +365,6 @@ new_principalDf.head(3)
 
 
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
