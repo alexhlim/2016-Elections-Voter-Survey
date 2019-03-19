@@ -63,6 +63,8 @@ Clinton and Trump randomized)
 
 - Did not vote for President  
 
+- . (no answer provided)
+
 
 ## Motivation
 
@@ -91,6 +93,19 @@ voter_2016.head(3)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -297,6 +312,19 @@ favorable_opinion_matrix.head(3)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -363,6 +391,19 @@ new_principalDf.head(3)
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -444,12 +485,12 @@ plt.legend(candidates.unique())
 
 
 
-    <matplotlib.legend.Legend at 0x1a24f7f320>
+    <matplotlib.legend.Legend at 0x1a2879f278>
 
 
 
 
-![png](images/output_13_1.png)
+![png](output_13_1.png)
 
 
 
@@ -471,6 +512,8 @@ pca.components_
              0.15589904, -0.79445237, -0.09232433]])
 
 
+
+Upon looking at principal component 1 (x-axis), it does a pretty good job in separating voters into two main groups, democratic voters and republican voters. So I would say that the first component definitely captures the most variance between our two main parties. Similarly, in principal component 2 (y-axis), the highest weights are put onto those who voted for 'Gary Johnson' and ‘Other’; however, this axis does not do as good of job creating two distinct groups. This could possibly be because those voters have similar views in terms of how they see other candidates. 
 
 # Ending Remarks
 
